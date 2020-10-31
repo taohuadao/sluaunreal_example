@@ -1,0 +1,336 @@
+Slua:     dump from: ...ect/HitBoxMakerBlueprint/Content/Lua/LuaFightGameHUD.lua:36: in method 'SetPawn'
+Slua:     - "<var>" = {
+Slua:     -     "CheckBool"         = function: 0x2675492e0
+Slua:     -     "CheckInt"          = function: 0x2975b5a50
+Slua:     -     "CheckNumber"       = function: 0x2975b7850
+Slua:     -     "CheckTable"        = function: 0x2975b4fd0
+Slua:     -     "Class"             = function: 0x2975b6290
+Slua:     -     "Clone"             = function: 0x2975b5270
+Slua:     -     "Dump"              = function: 0x2975b42e0
+Slua:     -     "FBox2D" = {
+Slua:     -     }
+Slua:     -     "FColor" = {
+Slua:     -     }
+Slua:     -     "FDateTime" = {
+Slua:     -     }
+Slua:     -     "FFloatInterval" = {
+Slua:     -     }
+Slua:     -     "FFloatRange" = {
+Slua:     -     }
+Slua:     -     "FFloatRangeBound" = {
+Slua:     -     }
+Slua:     -     "FGuid" = {
+Slua:     -     }
+Slua:     -     "FInt32Interval" = {
+Slua:     -     }
+Slua:     -     "FInt32Range" = {
+Slua:     -     }
+Slua:     -     "FInt32RangeBound" = {
+Slua:     -     }
+Slua:     -     "FLinearColor" = {
+Slua:     -     }
+Slua:     -     "FPrimaryAssetId" = {
+Slua:     -     }
+Slua:     -     "FPrimaryAssetType" = {
+Slua:     -     }
+Slua:     -     "FRandomStream" = {
+Slua:     -     }
+Slua:     -     "FRotator" = {
+Slua:     -     }
+Slua:     -     "FTransform" = {
+Slua:     -     }
+Slua:     -     "FVector" = {
+Slua:     -     }
+Slua:     -     "FVector2D" = {
+Slua:     -     }
+Slua:     -     "Handler"           = function: 0x26754a9a0
+Slua:     -     "Import"            = function: 0x2975b51b0
+Slua:     -     "IsKindOf"          = function: 0x2975b5210
+Slua:     -     "IsSet"             = function: 0x2975b7130
+Slua:     -     "LuaPanda" = {
+Slua:     -         "BP"                            = function: 0x227cfb3d0
+Slua:     -         "IsMeetCondition"               = function: 0x227cf81d0
+Slua:     -         "SendMsgWithStack"              = function: 0x20c232f00
+Slua:     -         "breaks" = {
+Slua:     -         }
+Slua:     -         "changeCoroutineHookState"      = function: 0x227cf9c60
+Slua:     -         "changeHookState"               = function: 0x227cf80e0
+Slua:     -         "changeRunState"                = function: 0x327f27a60
+Slua:     -         "checkCurrentLayerisLua"        = function: 0x1d8af1660
+Slua:     -         "checkHasBreakpoint"            = function: 0x2975b4a60
+Slua:     -         "checkSameNameVar"              = function: 0x2975b53c0
+Slua:     -         "checkfuncHasBreakpoint"        = function: 0x2975b52d0
+Slua:     -         "clearData"                     = function: 0x227cfaac0
+Slua:     -         "clearEnv"                      = function: 0x20c231f80
+Slua:     -         "connectSuccess"                = function: 0x2c7382160
+Slua:     -         "createSetValueRetTable"        = function: 0x20c230a80
+Slua:     -         "createWatchedVariableInfo"     = function: 0x20c232f40
+Slua:     -         "curStackId"                    = 0
+Slua:     -         "dataProcess"                   = function: 0x2c1b21a80
+Slua:     -         "debug_hook"                    = function: 0x327f26860
+Slua:     -         "debugger_wait_msg"             = function: 0x20c231bc0
+Slua:     -         "disconnect"                    = function: 0x327f26d40
+Slua:     -         "doctor"                        = function: 0x1d847e7a0
+Slua:     -         "fileExists"                    = function: 0x1d8af1120
+Slua:     -         "findTableVar"                  = function: 0x2975b6b60
+Slua:     -         "genUnifiedPath"                = function: 0x227cf8950
+Slua:     -         "getBaseInfo"                   = function: 0x327f25960
+Slua:     -         "getBreaks"                     = function: 0x1d8af2860
+Slua:     -         "getCWD"                        = function: 0x227cfbec0
+Slua:     -         "getCacheFormatPath"            = function: 0x1d8af0640
+Slua:     -         "getCallbackId"                 = function: 0x1d8af07c0
+Slua:     -         "getCurrentFunctionStackLevel"  = function: 0x20c231280
+Slua:     -         "getFilenameFromPath"           = function: 0x1d8af3eb0
+Slua:     -         "getGlobalVariable"             = function: 0x20c232940
+Slua:     -         "getInfo"                       = function: 0x1d847ca40
+Slua:     -         "getMsgTable"                   = function: 0x2065efc60
+Slua:     -         "getPath"                       = function: 0x227cf9210
+Slua:     -         "getSpecificFunctionStackLevel" = function: 0x1d8af0880
+Slua:     -         "getStackTable"                 = function: 0x227cf9cb0
+Slua:     -         "getTableMemberNum"             = function: 0x1d8af3310
+Slua:     -         "getUpValueVariable"            = function: 0x227cf98a0
+Slua:     -         "getVariable"                   = function: 0x227cfb1a0
+Slua:     -         "getVariableRef"                = function: 0x20c230340
+Slua:     -         "getWatchedVariable"            = function: 0x20c232f80
+Slua:     -         "isHitBreakpoint"               = function: 0x20c231d80
+Slua:     -         "isInMain"                      = function: 0x1d8af0340
+Slua:     -         "printToConsole"                = function: 0x1d8af16f0
+Slua:     -         "printToVSCode"                 = function: 0x227cfa750
+Slua:     -         "processExp"                    = function: 0x227cf8f90
+Slua:     -         "processWatchedExp"             = function: 0x227cfa250
+Slua:     -         "reConnect"                     = function: 0x2c7381590
+Slua:     -         "reGetSock"                     = function: 0x227cfaed0
+Slua:     -         "real_hook_process"             = function: 0x1d847e3e0
+Slua:     -         "receiveMessage"                = function: 0x327f27460
+Slua:     -         "revFindString"                 = function: 0x1d8af21d0
+Slua:     -         "revSubString"                  = function: 0x1d8af3c10
+Slua:     -         "sendLuaMemory"                 = function: 0x1d8af0d60
+Slua:     -         "sendMsg"                       = function: 0x2c7383270
+Slua:     -         "serializeTable"                = function: 0x1d8af3fd0
+Slua:     -         "setCacheFormatPath"            = function: 0x1d8af3dc0
+Slua:     -         "setCallbackId"                 = function: 0x1d8af0460
+Slua:     -         "setGlobal"                     = function: 0x2975b7760
+Slua:     -         "setLocal"                      = function: 0x20c2339c0
+Slua:     -         "setUpvalue"                    = function: 0x20c232c40
+Slua:     -         "setVariableValue"              = function: 0x2975b6020
+Slua:     -         "showEnv"                       = function: 0x2975b45e0
+Slua:     -         "start"                         = function: 0x327f26620
+Slua:     -         "stringSplit"                   = function: 0x1d8af2c20
+Slua:     -         "tools" = {
+Slua:     -             "base64decode"   = function: 0x2975b5030
+Slua:     -             "base64encode"   = function: 0x2975b64d0
+Slua:     -             "createJson"     = function: 0x2975b6770
+Slua:     -             "getFileSource"  = function: 0x2975b5b40
+Slua:     -             "printTable"     = function: 0x2975b4700
+Slua:     -             "serializeTable" = function: 0x2975b5150
+Slua:     -             "show"           = function: 0x2975b4af0
+Slua:     -         }
+Slua:     -         "trim"                          = function: 0x1d8af0730
+Slua:     -         "tryRequireClib"                = function: 0x20c232b80
+Slua:     -     }
+Slua:     -     "PrintError"        = function: 0x2975b6f80
+Slua:     -     "PrintInfo"         = function: 0x2975b7910
+Slua:     -     "PrintLog"          = function: 0x2975b62c0
+Slua:     -     "PrintTable"        = function: 0x1d7f6ae60
+Slua:     -     "Printf"            = function: 0x2975b6200
+Slua:     -     "_G"                = *REF*
+Slua:     -     "_VERSION"          = "Lua 5.3"
+Slua:     -     "assert"            = function: 0x18cd387a0
+Slua:     -     "collectgarbage"    = function: 0x18cd38820
+Slua:     -     "coroutine" = {
+Slua:     -         "create"      = function: 0x1cb88ca80
+Slua:     -         "isyieldable" = function: 0x18cd3c5c0
+Slua:     -         "resume"      = function: 0x18cd3c370
+Slua:     -         "running"     = function: 0x18cd3c410
+Slua:     -         "status"      = function: 0x18cd3c440
+Slua:     -         "wrap"        = function: 0x18cd3c530
+Slua:     -         "yield"       = function: 0x18cd3c590
+Slua:     -     }
+Slua:     -     "debug" = {
+Slua:     -         "debug"        = function: 0x18cd3c7a0
+Slua:     -         "gethook"      = function: 0x18cd3c970
+Slua:     -         "getinfo"      = function: 0x18cd3caf0
+Slua:     -         "getlocal"     = function: 0x18cd3cf90
+Slua:     -         "getmetatable" = function: 0x18cd3d150
+Slua:     -         "getregistry"  = function: 0x18cd3d130
+Slua:     -         "getupvalue"   = function: 0x18cd3d190
+Slua:     -         "getuservalue" = function: 0x18cd3c930
+Slua:     -         "sethook"      = function: 0x18cd3d3f0
+Slua:     -         "setlocal"     = function: 0x18cd3d610
+Slua:     -         "setmetatable" = function: 0x18cd3d780
+Slua:     -         "setupvalue"   = function: 0x18cd3d7e0
+Slua:     -         "setuservalue" = function: 0x18cd3d3a0
+Slua:     -         "traceback"    = function: 0x18cd3d870
+Slua:     -         "upvalueid"    = function: 0x18cd3d320
+Slua:     -         "upvaluejoin"  = function: 0x18cd3d210
+Slua:     -     }
+Slua:     -     "dofile"            = function: 0x18cd85b60
+Slua:     -     "error"             = function: 0x18cd38950
+Slua:     -     "getStringFromMD5"  = function: 0x18cd85f00
+Slua:     -     "getmetatable"      = function: 0x18cd389d0
+Slua:     -     "import"            = function: 0x18cd856f0
+Slua:     -     "io" = {
+Slua:     -         "close"     = function: 0x18cd42f30
+Slua:     -         "exists"    = function: 0x2975b6ad0
+Slua:     -         "filesize"  = function: 0x2975b7460
+Slua:     -         "flush"     = function: 0x18cd42fc0
+Slua:     -         "input"     = function: 0x18cd43030
+Slua:     -         "lines"     = function: 0x18cd43050
+Slua:     -         "open"      = function: 0x18cd43230
+Slua:     -         "output"    = function: 0x18cd43360
+Slua:     -         "pathinfo"  = function: 0x2975b76d0
+Slua:     -         "popen"     = function: 0x18cd43380
+Slua:     -         "read"      = function: 0x18cd43420
+Slua:     -         "readfile"  = function: 0x2975b78b0
+Slua:     -         "stderr"    = file (0x7fff8f3faec0)
+Slua:     -         "stdin"     = file (0x7fff8f3fad90)
+Slua:     -         "stdout"    = file (0x7fff8f3fae28)
+Slua:     -         "tmpfile"   = function: 0x18cd43480
+Slua:     -         "type"      = function: 0x18cd434f0
+Slua:     -         "write"     = function: 0x18cd43560
+Slua:     -         "writefile" = function: 0x2975b6c50
+Slua:     -     }
+Slua:     -     "ipairs"            = function: 0x18cd38a20
+Slua:     -     "load"              = function: 0x18cd38b50
+Slua:     -     "loadfile"          = function: 0x18cd38a70
+Slua:     -     "math" = {
+Slua:     -         "abs"           = function: 0x18cd47990
+Slua:     -         "acos"          = function: 0x18cd479f0
+Slua:     -         "angle2radian"  = function: 0x2975b44f0
+Slua:     -         "asin"          = function: 0x18cd47a20
+Slua:     -         "atan"          = function: 0x18cd47a50
+Slua:     -         "ceil"          = function: 0x18cd47aa0
+Slua:     -         "cos"           = function: 0x18cd47b20
+Slua:     -         "deg"           = function: 0x18cd47b50
+Slua:     -         "exp"           = function: 0x18cd47b80
+Slua:     -         "floor"         = function: 0x18cd47c00
+Slua:     -         "fmod"          = function: 0x18cd47c80
+Slua:     -         "huge"          = inf
+Slua:     -         "log"           = function: 0x18cd47d90
+Slua:     -         "max"           = function: 0x18cd47e30
+Slua:     -         "maxinteger"    = 9223372036854775807
+Slua:     -         "min"           = function: 0x18cd47ed0
+Slua:     -         "mininteger"    = -9223372036854775808
+Slua:     -         "modf"          = function: 0x18cd47f70
+Slua:     -         "newrandomseed" = function: 0x2975b7820
+Slua:     -         "pi"            = 3.1415926535898
+Slua:     -         "rad"           = function: 0x18cd48030
+Slua:     -         "radian2angle"  = function: 0x2975b77c0
+Slua:     -         "random"        = function: 0x18cd48060
+Slua:     -         "randomseed"    = function: 0x18cd48180
+Slua:     -         "round"         = function: 0x2975b4d30
+Slua:     -         "sin"           = function: 0x18cd481b0
+Slua:     -         "sqrt"          = function: 0x18cd481e0
+Slua:     -         "tan"           = function: 0x18cd48210
+Slua:     -         "tointeger"     = function: 0x18cd47bb0
+Slua:     -         "type"          = function: 0x18cd48240
+Slua:     -         "ult"           = function: 0x18cd47d50
+Slua:     -     }
+Slua:     -     "next"              = function: 0x18cd38cc0
+Slua:     -     "os" = {
+Slua:     -         "clock"     = function: 0x18cd4a4c0
+Slua:     -         "date"      = function: 0x18cd4a510
+Slua:     -         "difftime"  = function: 0x18cd4a810
+Slua:     -         "execute"   = function: 0x18cd4a860
+Slua:     -         "exit"      = function: 0x18cd4a870
+Slua:     -         "getenv"    = function: 0x18cd4a8e0
+Slua:     -         "remove"    = function: 0x18cd4a920
+Slua:     -         "rename"    = function: 0x18cd4a960
+Slua:     -         "setlocale" = function: 0x18cd4a9b0
+Slua:     -         "time"      = function: 0x18cd4aa10
+Slua:     -         "tmpname"   = function: 0x18cd4acc0
+Slua:     -     }
+Slua:     -     "package" = {
+Slua:     -         "config"     = "/
+;
+?
+!
+-
+"
+Slua:     -         "cpath"      = "/usr/local/lib/lua/5.3/?.so;/usr/local/lib/lua/5.3/loadall.so;./?.so"
+Slua:     -         "loaded" = {
+Slua:     -             "Class"       = true
+Slua:     -             "LuaPanda"    = *REF*
+Slua:     -             "_G"          = *REF*
+Slua:     -             "coroutine"   = *REF*
+Slua:     -             "debug"       = *REF*
+Slua:     -             "io"          = *REF*
+Slua:     -             "math"        = *REF*
+Slua:     -             "os"          = *REF*
+Slua:     -             "package"     = *REF*
+Slua:     -             "socket.core" = *MAX NESTING*
+Slua:     -             "string" = *MAX NESTING*
+Slua:     -             "table" = *MAX NESTING*
+Slua:     -             "utf8" = *MAX NESTING*
+Slua:     -         }
+Slua:     -         "loadlib"    = function: 0x18cd48840
+Slua:     -         "path"       = "/usr/local/share/lua/5.3/?.lua;/usr/local/share/lua/5.3/?/init.lua;/usr/local/lib/lua/5.3/?.lua;/usr/local/lib/lua/5.3/?/init.lua;./?.lua;./?/init.lua"
+Slua:     -         "preload" = {
+Slua:     -             "ltn12"          = function: 0x18cd85400
+Slua:     -             "mbox"           = function: 0x18cd853c0
+Slua:     -             "mime"           = function: 0x18cd85380
+Slua:     -             "mime.core"      = function: 0x18cd5eba0
+Slua:     -             "socket"         = function: 0x18cd85300
+Slua:     -             "socket.core"    = function: 0x18cd5eaa0
+Slua:     -             "socket.ftp"     = function: 0x18cd854c0
+Slua:     -             "socket.headers" = function: 0x18cd85440
+Slua:     -             "socket.http"    = function: 0x18cd85480
+Slua:     -             "socket.smtp"    = function: 0x18cd85340
+Slua:     -             "socket.tp"      = function: 0x18cd852c0
+Slua:     -             "socket.url"     = function: 0x18cd85280
+Slua:     -         }
+Slua:     -         "searchers" = {
+Slua:     -             1 = function: 0x32db00a00
+Slua:     -             2 = function: 0x18cd865b0
+Slua:     -             3 = function: 0x32db02050
+Slua:     -             4 = function: 0x32db01e70
+Slua:     -             5 = function: 0x32db036a0
+Slua:     -         }
+Slua:     -         "searchpath" = function: 0x18cd488e0
+Slua:     -     }
+Slua:     -     "pairs"             = function: 0x18cd38d20
+Slua:     -     "pcall"             = function: 0x18cd38db0
+Slua:     -     "print"             = function: 0x18cd85990
+Slua:     -     "rawequal"          = function: 0x18cd38f60
+Slua:     -     "rawget"            = function: 0x18cd39010
+Slua:     -     "rawlen"            = function: 0x18cd38fb0
+Slua:     -     "rawset"            = function: 0x18cd39060
+Slua:     -     "require"           = function: 0x32db00a30
+Slua:     -     "select"            = function: 0x18cd390c0
+Slua:     -     "setmetatable"      = function: 0x18cd39160
+Slua:     -     "slua" = {
+Slua:     -         "Array"           = function: 0x18cd65f60
+Slua:     -         "Map"             = function: 0x18cd71780
+Slua:     -         "createDelegate"  = function: 0x18cd97b40
+Slua:     -         "dumpUObjects"    = function: 0x18cd97e50
+Slua:     -         "getMicroseconds" = function: 0x18cd97db0
+Slua:     -         "getMiliseconds"  = function: 0x18cd97e00
+Slua:     -         "isValid"         = function: 0x18cd98400
+Slua:     -         "loadClass"       = function: 0x18cd97bf0
+Slua:     -         "loadObject"      = function: 0x18cd98230
+Slua:     -         "loadUI"          = function: 0x18cd97800
+Slua:     -         "setTickFunction" = function: 0x18cd97c70
+Slua:     -         "threadGC"        = function: 0x18cd98370
+Slua:     -     }
+Slua:     -     "slua_profile" = {
+Slua:     -         "changeCoroutineHookState"  = function: 0x18cd81920
+Slua:     -         "changeCoroutinesHookState" = function: 0x1cb88eb40
+Slua:     -         "changeHookState"           = function: 0x18cd81050
+Slua:     -         "changeRunState"            = function: 0x29f9f7be0
+Slua:     -         "connectSuccess"            = function: 0x1cb88e0c0
+Slua:     -         "disconnect"                = function: 0x29f9f6d10
+Slua:     -         "printToConsole"            = function: 0x29f9f6da0
+Slua:     -         "reConnect"                 = function: 0x1caf42440
+Slua:     -         "reGetSock"                 = function: 0x1ca8d9040
+Slua:     -         "setSocket"                 = function: 0x18cd81990
+Slua:     -         "start"                     = function: 0x1caf43820
+Slua:     -         "stop"                      = function: 0x227fe4310
+Slua:     -     }
+Slua:     -     "string"            = *REF*
+Slua:     -     "table"             = *REF*
+Slua:     -     "tonumber"          = function: 0x18cd39200
+Slua:     -     "tostring"          = function: 0x18cd39470
+Slua:     -     "type"              = function: 0x18cd394a0
+Slua:     -     "utf8"              = *REF*
+Slua:     -     "xpcall"            = function: 0x18cd394f0
+Slua:     - }

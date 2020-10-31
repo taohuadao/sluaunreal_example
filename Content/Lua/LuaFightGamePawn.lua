@@ -1,3 +1,6 @@
+
+
+
 local EMovementMode = import('EMovementMode');
 local LuaFightGamePawn={}
 
@@ -17,6 +20,8 @@ function LuaFightGamePawn:ReceiveBeginPlay()
     -- set bCanBeDamaged property in parent
     self.bCanBeDamaged = false
 
+    
+
     self.HP = self.MaxHP
 
     print(self.HP)
@@ -29,8 +34,14 @@ function LuaFightGamePawn:ReceiveBeginPlay()
     print(self.AnimationList.Idle)
     print(self.AnimationList.Run)
 
+  
+
     print(self:InAir())
     PrintTable(EMovementMode)
+
+    self:PlayAnimMontage(self.MontageList.Hurt_Montage,1,"")
+
+    
 
 end
 
