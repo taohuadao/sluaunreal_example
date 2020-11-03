@@ -1,8 +1,12 @@
 require("LuaPanda").start("127.0.0.1", 8818)
 require("Class")
 
+
+
+
+
 local GameplayStatics = import "GameplayStatics"
-local EPropertyClass = import"EPropertyClass"
+local EPropertyClass = import "EPropertyClass"
 local Hud = {}
 
 -- override event from blueprint
@@ -58,6 +62,18 @@ function Hud:SetMainWidget()
 end
 
 function Hud:OpenMainWidget()
+
+    -- local WidgetClass = slua.loadClass("WidgetBlueprint'/Game/HitBoxMaker/DemoFightGame/Blueprints/FightGame/Widget/LuaGightGameWidget.LuaGightGameWidget'")
+    -- self.MainWidget = self:CreateWidget(self:GetWorld(),WidgetClass)
+	-- self.MainWidget:AddToViewport();
+	
+    local ui = slua.loadUI("/Game/HitBoxMaker/DemoFightGame/Blueprints/FightGame/Widget/LuaFightGameWidget.LuaFightGameWidget",self:GetWorld())
+    slua.dumpUObjects(ui)
+    ui:AddToViewport(0);
+
+    
+
+
 end
 
 return Hud
