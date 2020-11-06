@@ -328,11 +328,17 @@ function Import(moduleName, currentModuleName)
     return require(moduleFullName)
 end
 
+
+
+
 function Handler(obj, method)
     return function(...)
         return method(obj, ...)
     end
 end
+
+
+
 
 function math.newrandomseed()
     local ok, socket =

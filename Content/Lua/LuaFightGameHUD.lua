@@ -1,4 +1,4 @@
-require("LuaPanda").start("127.0.0.1", 8818)
+
 require("Class")
 
 
@@ -68,12 +68,18 @@ function Hud:OpenMainWidget()
 	-- self.MainWidget:AddToViewport();
 	
     local ui = slua.loadUI("/Game/HitBoxMaker/DemoFightGame/Blueprints/FightGame/Widget/LuaFightGameWidget.LuaFightGameWidget",self:GetWorld())
-    slua.dumpUObjects(ui)
+    -- slua.dumpUObjects(ui)
     ui:AddToViewport(0);
 
     
 
 
 end
+
+function Hud:ReceiveDrawHUD(a,b)
+
+    self.Super:ReceiveDrawHud(a,b)
+end
+
 
 return Hud
