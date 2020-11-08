@@ -41,9 +41,9 @@ function Hud:SetPawn()
     self.Pawn1 = self:GetOwningPawn()
     
     local world = self:GetWorld()
-    local bpClass = slua.loadClass("Blueprint'/Game/HitBoxMaker/DemoFightGame/Blueprints/FightGamePawn.FightGamePawn'")
+    local bpClass = slua.loadClass("Blueprint'/Game/HitBoxMaker/DemoFightGame/Lua/LuaFightGamePawn.LuaFightGamePawn'")
     local actors = slua.Array(EPropertyClass.Object,bpClass)
-    local arr = GameplayStatics.GetAllActorsWithTag(world, "Player2",actors)
+    local arr = GameplayStatics.GetAllActorsWithTag(world, "luaplayer2",actors)
 
     for i=0,arr:Num()-1 do
         print("arr item",i,arr:Get(i))
@@ -53,7 +53,10 @@ function Hud:SetPawn()
         self.Pawn2 = arr:Get(0)
     end
     Dump(self.Pawn1)
-    Dump(self.Pawn2)
+	Dump(self.Pawn2)
+	
+	self.Pawn1:SetEnemy(self.Pawn2)
+	self.Pawn2:SetEnemy(self.Pawn1)
 
 
 end
@@ -71,7 +74,7 @@ function Hud:OpenMainWidget()
     -- slua.dumpUObjects(ui)
     ui:AddToViewport(0);
 
-    
+    ui:SetPawns(self.Pawn1,self.Pawn2)
 
 
 end
